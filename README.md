@@ -6,6 +6,8 @@ Suitable images can be added in the same directory as the HTML File, following w
 
 Customised messages for each card can be added in the JavaScript.
 
+There are total of 9 cards. They can be added and substracted from the code as required.
 
-https://github.com/aditikhare16/Wish-Greet-Invite/assets/114524718/0ddfc495-0684-40df-9907-81480fbf9392
+![Screenshot (360)](https://github.com/aditikhare16/Wish-Greet-Invite/assets/114524718/a16f6091-e7d5-4761-bb2d-e72285c1b358)
+![Screenshot (361)](https://github.com/aditikhare16/Wish-Greet-Invite/assets/114524718/8b1442b2-80e1-44db-939e-39c0e69062e2)
 
