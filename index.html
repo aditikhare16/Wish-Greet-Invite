@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Dear Papa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Title of the event!</h1>
+        <div class="card-container">
+            <div class="card" onclick="showMessage(1)">
+                <img src="img1.jpeg" class="card-image">
+                <h2>Card 1</h2>
+            </div>
+            <div class="card" onclick="showMessage(2)">
+                <img src="img2.jpeg" class="card-image">
+                <h2>Card 2</h2>
+            </div>
+            <div class="card" onclick="showMessage(3)">
+                <img src="img3.jpg" class="card-image">
+                <h2>Card 3</h2>
+            </div>
+            <div class="card" onclick="showMessage(4)">
+                <img src="img4.jpg" class="card-image">
+                <h2>Card 4</h2>
+            </div>
+            <div class="card" onclick="showMessage(5)">
+                <img src="img5.jpg" class="card-image">
+                <h2>Card 5</h2>
+            </div>
+            <div class="card" onclick="showMessage(6)">
+                <img src="img6.jpg" class="card-image">
+                <h2>Card 6</h2>
+            </div>
+            <div class="card" onclick="showMessage(7)">
+                <img src="img7.jpg" class="card-image">
+                <h2>Card 7</h2>
+            </div>
+            <div class="card" onclick="showMessage(8)">
+                <img src="img8.jpg" class="card-image">
+                <h2>Card 8</h2>
+            </div>
+            <div class="card" onclick="showMessage(9)">
+                <img src="img9.jpg" class="card-image">
+                <h2>Card 9</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal structure -->
+    <div id="messageModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <p id="modalMessage"></p>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.3.2"></script>
+    <script src="script.js"></script>
+</body>
+</html>
